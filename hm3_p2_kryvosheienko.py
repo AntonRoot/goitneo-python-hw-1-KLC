@@ -1,11 +1,7 @@
 import json
-
-# Ваші класи і методи, які ви вже реалізували в завданні 1
-
 if __name__ == "__main__":
     book = AddressBook()
     book.deserialize('addressbook.json')
-
     while True:
         command = input("Введіть команду: ").strip().lower()
         if command == 'add-birthday':
