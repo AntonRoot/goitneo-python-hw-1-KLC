@@ -1,5 +1,4 @@
 import json
-
 class Field:
     def __init__(self, value):
         self.value = value
@@ -51,7 +50,6 @@ class AddressBook:
 if __name__ == "__main__":
     book = AddressBook()
 
-    # Решта коду
 
     book.serialize('addressbook.json')
     book.deserialize('addressbook.json')
